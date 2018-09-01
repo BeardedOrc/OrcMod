@@ -1,0 +1,21 @@
+name: OrcMod
+author: Defyled
+version: 1.0-DEVELOPMENT
+main: com.screamingorc.orcmod.Main
+description: Spigot plugin built for Screaming Orc
+permissions:
+    OrcOreBreakModBypass.all:
+        description: This permission allows someone to bypass all blockdrop mods
+        default: op
+    OrcOreBreakModBypass.diamond:
+        description: This permission allows someone to bypass all blockdrop mods for diamond ore only
+        default: op
+    OrcOreBreakModBypass.emerald:
+        description: This permission allows someone to bypass all blockdrop mods for emerald ore only
+        default: op
+    OrcOreBreakModBypass.dirt:
+        description: This permission allows someone to bypass all blockdrop mods for dirt only
+        default: op
+    OrcOrePlaceModBypass.all:
+        description: This permission allows someone to bypass all ore place restrictions
+        default: op
